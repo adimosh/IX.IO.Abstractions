@@ -3,14 +3,12 @@
   "version": "0.3.0",
 
   "dependencies": {
-    "System.IO": "4.1.0",
-    "System.Runtime": "4.1.0",
-    "System.Text.Encoding": "4.0.11",
-    "System.IO.FileSystem": "4.0.1",
     "IX.IO.Abstractions": "0.3.0"
   },
 
   "frameworks": {
+    "net45": {
+    },
     "netstandard1.2": {
       "buildOptions": {
         "define": [ "NETSTANDARD12" ]
@@ -28,7 +26,11 @@
         "monomac"
       ],
       "dependencies": {
-        "System.Runtime.InteropServices": "4.1.0"
+        "System.Runtime.InteropServices": "4.1.0",
+        "System.IO": "4.1.0",
+        "System.Runtime": "4.1.0",
+        "System.Text.Encoding": "4.0.11",
+        "System.IO.FileSystem": "4.0.1"
       }
     },
     "netstandard1.3": {
@@ -39,7 +41,12 @@
         "net46"
       ],
       "dependencies": {
-        "System.Runtime.InteropServices": "4.1.0"
+        "System.Runtime.InteropServices": "4.1.0",
+        "System.IO": "4.1.0",
+        "System.Runtime": "4.1.0",
+        "System.Text.Encoding": "4.0.11",
+        "System.IO.FileSystem": "4.0.1"
+
       }
     },
     "netstandard1.4": {
@@ -51,7 +58,12 @@
         "uap10"
       ],
       "dependencies": {
-        "System.Runtime.InteropServices": "4.1.0"
+        "System.Runtime.InteropServices": "4.1.0",
+        "System.IO": "4.1.0",
+        "System.Runtime": "4.1.0",
+        "System.Text.Encoding": "4.0.11",
+        "System.IO.FileSystem": "4.0.1"
+
       }
     },
     "netstandard1.5": {
@@ -62,7 +74,12 @@
         "net462"
       ],
       "dependencies": {
-        "System.Runtime.InteropServices": "4.1.0"
+        "System.Runtime.InteropServices": "4.1.0",
+        "System.IO": "4.1.0",
+        "System.Runtime": "4.1.0",
+        "System.Text.Encoding": "4.0.11",
+        "System.IO.FileSystem": "4.0.1"
+
       }
     },
     "netstandard1.6": {
@@ -83,7 +100,12 @@
         "xamarinxboxone"
       ],
       "dependencies": {
-        "System.Runtime.InteropServices": "4.1.0"
+        "System.Runtime.InteropServices": "4.1.0",
+        "System.IO": "4.1.0",
+        "System.Runtime": "4.1.0",
+        "System.Text.Encoding": "4.0.11",
+        "System.IO.FileSystem": "4.0.1"
+
       }
     }
   },
