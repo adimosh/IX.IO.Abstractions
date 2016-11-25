@@ -1,13 +1,11 @@
 {
   "title": "IX.IO.Abstractions",
-  "version": "0.3.0",
-
+  "version": "0.3.1",
   "dependencies": {
     "System.IO": "4.1.0",
     "System.Runtime": "4.1.0",
     "System.Text.Encoding": "4.0.11"
   },
-
   "frameworks": {
     "netstandard1.0": {
       "buildOptions": {
@@ -116,7 +114,6 @@
       }
     }
   },
-
   "configurations": {
     "Debug": {
       "buildOptions": {
@@ -132,7 +129,6 @@
       }
     }
   },
-
   "authors": [ "Adrian Mos" ],
   "copyright": "Adrian Mos, 2016",
   "description": "A library for abstracting away the common I/O operations that have originally been implemented as static classes in the .NET Framework.",
@@ -142,5 +138,8 @@
     "projectUrl": "https://github.com/adimosh/IX.IO.Abstractions/",
     "tags": [ "" ],
     "requireLicenseAcceptance": false
+  },
+  "buildOptions": {
+    "xmlDoc": true
   }
 }

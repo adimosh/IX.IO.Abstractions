@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace IX.IO.Abstractions
 {
+    /// <summary>
+    /// Abstracts the <see cref="System.IO.Directory"/> class' static methods into a mockable interface. 
+    /// </summary>
     public interface IDirectory
     {
         /// <summary>
