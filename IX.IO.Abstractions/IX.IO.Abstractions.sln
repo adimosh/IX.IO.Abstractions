@@ -14,6 +14,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IX.IO.Abstractions", "src\I
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IX.IO.LocalFilesystem", "src\IX.IO.LocalFilesystem\IX.IO.LocalFilesystem.xproj", "{03AD69C2-C80B-4D07-BACF-283BF368C599}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{96D999F4-45D5-4DD1-A227-B076BEBFFF1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
